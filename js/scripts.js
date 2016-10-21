@@ -1,6 +1,5 @@
 
 var survey = function(answer){
-  debugger;
   if (answer < 9){
     return ".ruby";
   } else if (answer > 8 && answer < 12){
@@ -13,7 +12,6 @@ var survey = function(answer){
 
 $(document).ready(function(){
   $("form").submit(function(event){
-  debugger;
   var name = $("input#name").val();
   var q1 = parseInt($("#q1").val());
   var q2 = parseInt($("#q2").val());
@@ -23,9 +21,8 @@ $(document).ready(function(){
   var result = q1 + q2 + q3 + q4 + q5
 
   var answer = survey(result).toString();
-  debugger;
-  $(".output").hide();
 
+  $(".output").hide();
   $(answer).show();
 
   $(".name").text(name);
