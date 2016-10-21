@@ -1,3 +1,7 @@
 .output, #confirm {
   display: none;
 }
+
+nav {
+  margin-top: 10px;
+}
