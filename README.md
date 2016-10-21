@@ -11,7 +11,7 @@ _This website will help choose track to take through Epicodus with a small surve
 ## Setup/Installation Requirements
 
 * _View survey by opening address in browser_
-* _or visit at GitHub Pages_
+* _or visit at GitHub Pages https://codybru10.github.io/track-suggester/_
 
 ## Known Bugs
 
