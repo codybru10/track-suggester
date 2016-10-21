@@ -2,11 +2,11 @@
 var survey = function(answer){
   debugger;
   if (answer < 9){
-    return "Ruby";
+    return ".ruby";
   } else if (answer > 8 && answer < 12){
-    return "C#";
+    return ".c";
   } else if (answer > 11){
-    return "Design";
+    return ".design";
   }
 }
 
@@ -22,9 +22,11 @@ $(document).ready(function(){
   var q5 = parseInt($("#q5").val());
   var result = q1 + q2 + q3 + q4 + q5
 
-  var answer = survey(result);
+  var answer = survey(result).toString();
+  debugger;
+  $(".output").hide();
 
-  $(".read").text(answer);
+  $(answer).show();
 
   $(".name").text(name);
   $("#confirm").show();
