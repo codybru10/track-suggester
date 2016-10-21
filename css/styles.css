@@ -1,7 +1,17 @@
-.output, #confirm {
+#confirm {
   display: none;
 }
 
 nav {
   margin-top: 10px;
+}
+
+.jumbotron {
+  color: #3D3FC1;
+  border: 2px solid black;
+  text-shadow: 85px 25px 20px black;
+}
+
+h1 {
+  color: #3D3FC1;
 }
